@@ -1,6 +1,25 @@
 <?php
+$one = (int)$_GET['one'];
+$two = (int)$_GET['two'];
+$operation = $_GET['operation'];
 
-
-
-$name = $_POST['name'];
-echo $name;
+if (!empty($one) and !empty($two)){
+    if ($operation == "+"){
+        echo $one + $two;
+    }
+    elseif ($operation == "-"){
+        echo $one - $two;
+    }
+    elseif ($operation == "*"){
+        echo $one * $two;
+    }
+    elseif ($operation == "/"){
+        echo $one / $two;
+    }
+    elseif ($operation == "**"){
+        echo $one ** $two;
+    }
+}
+else{
+    echo "Данных нет!";
+}

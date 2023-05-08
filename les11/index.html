@@ -5,9 +5,16 @@
         <title>Title</title>
     </head>
     <body>
-        <form method="post" action="./back.php">
-            <input type="text" placeholder="Введите ваше имя:" name="name"><br>
-            <input type="text" placeholder="Введите логин:" name="login"><br>
+        <form method="get" action="./back.php">
+            <input type="text" placeholder="Введите первое число:" name="one"><br>
+            <input type="text" placeholder="Введите второе число:" name="two"><br>
+            <select name="operation">
+                <option value="+" label="Сложение"/>
+                <option value="-" label="Вычитание"/>
+                <option value="*" label="Умножение"/>
+                <option value="/" label="Деление"/>
+                <option value="**" label="Возведение в степень"/>
+            </select><br>
             <input type="submit" value="Кнопка">
         </form>
     </body>
