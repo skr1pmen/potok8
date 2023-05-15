@@ -18,7 +18,7 @@ session_start();
         <input type="password" name="password" id="password"><br>
 
         <input type="submit" value="Войти">
-        <a href="./regits.php">Регистрация</a>
+        <a href="./regist.php">Регистрация</a>
         <a href="../index.php">На главную</a>
     </form>
 </body>

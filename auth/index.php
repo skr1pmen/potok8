@@ -15,7 +15,7 @@ session_start();
             <div class="container">
                 <a href="#"><img class="logo" src="./assets/images/logo.png" alt="logo"></a>
                 <form method="get">
-                    <input type="text" placeholder="Поиск">
+                    <input type="text" placeholder="Поиск" name="search">
                     <input type="submit" value="Найти">
                 </form>
                 <a href="./pages/login.php"><img class="auth" src="./assets/images/profile.png" alt="profile"></a>
